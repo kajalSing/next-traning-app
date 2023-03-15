@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 // import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/HomePage.module.css'
 
 // const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <Head>
@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
        
-        <h1> hello next</h1>
+      <div>Welcome to Next.js!</div>
         
       </main>
     </>
