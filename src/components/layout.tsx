@@ -1,4 +1,4 @@
-
+import styles from "@/styles/blog.module.css";
 
 type layoutProps = {
     children: React.ReactNode;
@@ -6,10 +6,8 @@ type layoutProps = {
 
 export default function Layout({ children, ...props }: layoutProps) {
     return (
-        <div>
-            <a {...props}>
-                {children}
-            </a>
-        </div>
+    <div {...props} className={styles.spacing}>
+        {children}
+    </div>
     );
 }

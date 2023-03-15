@@ -1,0 +1,21 @@
+.heading {
+    padding:1rem;
+
+}
+
+.list {
+    padding: 1rem;
+    border:1px solid #ededed;
+    margin: 1rem;
+    list-style-type: none;
+
+}
+
+.spacing {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+/* .para {
+     width: 400px;
+} */

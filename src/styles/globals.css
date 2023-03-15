@@ -94,6 +94,10 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.spacing{
+  width: 70%;
+  margin: auto;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
